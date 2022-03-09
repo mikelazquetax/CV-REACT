@@ -1,0 +1,22 @@
+.bloque{
+    display: flex;
+    p{
+        margin-top: 10%;
+        margin-left: 4%;
+        width: 50%;
+    }
+.Proyecto{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    &__img{
+        width: 500px;
+      
+    }
+}
+}

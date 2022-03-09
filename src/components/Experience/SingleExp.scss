@@ -1,0 +1,12 @@
+.block{
+    border: 2px solid;
+    border-color:gold;
+    margin: 4px;
+    text-align: center;
+    width: 120%;
+    &:hover{
+        border-color: darkblue;
+        transform: scale(0.9);
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,36 @@
+@import '../../styles/colors';
+
+.Hero{
+align-items: center;
+justify-content: center;
+display: flex;
+flex-wrap: wrap;
+margin-top: 5%;
+ &__info{
+     font-family: 'Montserrat', 'sans-serif';
+ }
+ &__icon{
+     margin-right: 3%;
+
+ }
+ a{
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Montserrat', 'sans-serif';
+    color: black;
+    &:hover{
+        color:darkblue;
+        cursor: pointer;
+    }
+}
+img{
+    margin-left: 10%;
+    border-radius: 50%;
+    border: 5px solid;
+    border-color:gold;
+    &:hover{
+        border-color:darkblue;
+        cursor: pointer;
+    }
+}
+}

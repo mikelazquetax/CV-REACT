@@ -1,0 +1,18 @@
+.footer{
+    text-align: center;
+    margin-top: 3%;
+
+
+    &__title{
+       display: flex;
+       flex-direction: column;
+        height: 80px;
+        color:darkblue;
+        background-color: gold;
+        margin: 0;
+        a{
+            background-color: gold;
+            text-decoration: none;
+        }
+    }
+}
